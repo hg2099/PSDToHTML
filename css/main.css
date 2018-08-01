@@ -14,6 +14,8 @@ body{
   margin: 0;
   border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+
 }
 
 a{
@@ -103,14 +105,99 @@ a{
   margin-left: 0;
 }
 
+p{
+  color: #5e5e5e;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.border{
+  border-bottom: 3px solid #000000;
+  padding: 5px;
+}
+
+.read{
+  color: #fe9b00;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.arrow{
+  color: #000000;
+}
+
+.benefits{
+  list-style: none;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.check{
+  float: left;
+  
+}
+
+em{
+  color: #000000;
+}
+
+
 /****************
       Portfolio
 *****************/
 
+.image{
+  padding: 10px;
+  margin-bottom: 5px;
+}
 /****************
       Info
 *****************/
+.blog{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.social{
+  margin-left: 15px;
+
+}
+
+.contact{
+}
 
 /****************
       Footer
 *****************/
+
+#footer{
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 100%;
+}
+.logoFooter{
+  float: right;
+  padding: 8px;
+  padding-right: 320px;
+}
+
+h4, .line{
+  display: inline;
+  color: #5d5d5d;
+}
+.no-inline{
+  display: block;
+}
+.itemsFooter{
+  padding-top: 40px;
+  padding-left: 25px; 
+  margin-left: 300px;
+}
+
+/*fhlknlkhnlknhlkfhfjlñjmjfj*/
+
+
+
