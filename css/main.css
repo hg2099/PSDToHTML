@@ -159,8 +159,9 @@ em{
       Info
 *****************/
 .blog{
-  display: inline-block;
+  width: 660px;
   margin-bottom: 20px;
+  float: left;
 }
 
 .social{
@@ -169,7 +170,8 @@ em{
 }
 
 .contact{
-  
+  float: right;
+  width: 225px;
 }
 
 /****************
@@ -199,8 +201,6 @@ h4, .line{
   padding-left: 25px; 
   margin-left: 300px;
 }
-
-/*fhlknlkhnlknhlkfhfjlñjmjfj*/
 
 
 
