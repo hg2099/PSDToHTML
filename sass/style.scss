@@ -1,6 +1,11 @@
-/*
-  Styles
-*/
+@import 'partials/content';
+@import 'partials/footer';
+@import 'partials/general';
+@import 'partials/header';
+@import 'partials/helpers';
+@import 'partials/info';
+@import 'partials/portfolio';
+
 
 /****************
       General
@@ -66,12 +71,7 @@ a{
 
 .menu li{
   display: inline;
-  /* margin-left: 65px; */
 }
-
-/* .menu li:first-child{
-  margin-left: 0;
-} */
 
 .menu li + li{
   margin-left: 65px;
@@ -87,10 +87,6 @@ a{
 .link-active{
   color: black !important;
 }
-
-/****************
-      Slider
-*****************/
 
 /****************
       Content
@@ -121,7 +117,7 @@ h2{
 
 .read{
   color: #fe9b00;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
