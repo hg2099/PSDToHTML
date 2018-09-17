@@ -1,0 +1,11 @@
+.blog{
+    @include blog;    
+}
+
+.social{
+    @include social;
+}
+
+.contact{
+    @include contact;
+}

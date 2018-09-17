@@ -6,3 +6,34 @@
     clear: both;
 }
 
+@mixin bb-line{
+    border-bottom: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+@mixin box{
+    width: 285px;
+    float: left;
+    margin-left: 52px;
+}
+
+@mixin blog {
+    width: 660px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+@mixin social {
+    margin-left: 15px;
+}
+
+@mixin contact {
+    float: right;
+    width: 225px;
+}
+
+@mixin footer-size {
+    width: 100%;
+    height: 100%;
+}

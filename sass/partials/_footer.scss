@@ -1,0 +1,25 @@
+#footer {
+    background-color: $footer-bg;
+    @include footer-size;
+}
+  
+.logoFooter {
+    float: right;
+    padding: 8px;
+    padding-right: 320px; 
+}
+  
+h4, .line {
+    display: inline;
+    color: $footer-lines; 
+}
+  
+.no-inline {
+    display: block; 
+}
+  
+.itemsFooter {
+    padding-top: 40px;
+    padding-left: 25px;
+    margin-left: 300px; 
+}
