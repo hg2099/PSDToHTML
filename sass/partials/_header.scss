@@ -1,8 +1,11 @@
 #header{
-    position: relative;
-    margin-top: 20px;
+    border-top: 17px solid #090909;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f4f4f4;
 }
-  
+
 .logo{
     float: left;
 }
@@ -12,7 +15,7 @@
     font-size: $f-size;
     position: absolute;
     top: 18px;
-    right: 0;
+    right: 450px;
 }
 
 .menu{
